@@ -1,7 +1,7 @@
 const express = require('express')
 const methodOverride = require('method-override')
 
-const app = expressS()
+const app = express()
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({extended: false}))
